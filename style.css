@@ -29,7 +29,7 @@ body {
 }
 
 .product-img {
-  width: 50%;
+  background-position: 0px -60px;
   background-image: url("./images/image-product-desktop.jpg");
   background-size: cover;
 }
@@ -140,4 +140,14 @@ body {
   .product-details p{
     width: 100%;
   }
+}
+
+.attribution {
+  margin-top: 50px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
