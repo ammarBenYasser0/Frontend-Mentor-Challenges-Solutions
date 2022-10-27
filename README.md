@@ -42,4 +42,5 @@ Users should be able to:
 ## Author
 
 - Frontend Mentor - [Ammar Yasser](https://www.frontendmentor.io/profile/Ammar0Yasser)
+- linkedin - [Ammar Yasser](https://www.linkedin.com/in/ammarbenyasser0/)
 - Twitter - [@ammarBenYasser0](https://twitter.com/ammarBenYasser0)
