@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [here](https://www.frontendmentor.io/solutions/product-preview-card-component-solution-0u6_Z2GjoG)
--   Live Site URL: [here](https://product-preview-card-am24.netlify.app)
+-   Solution URL: [here](https://www.frontendmentor.io/solutions/qr-code-component-PDcuKx_n30)
+-   Live Site URL: [here](https://qr-code-component-am24.netlify.app/)
 
 ### Built with
 
