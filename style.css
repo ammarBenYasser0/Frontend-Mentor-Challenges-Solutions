@@ -20,7 +20,7 @@ body {
 }
 
 .container {
-  width: 50%;
+  width: 46%;
   height: fit-content;
   background-color: var(--white);
   border-radius: 10px;
@@ -30,7 +30,7 @@ body {
 
 .product-img {
   width: 50%;
-  height: 406px;
+  height: 459px;
 }
 
 .product-img img{
@@ -39,14 +39,14 @@ body {
   object-fit: cover;
 }
 
-.product-details {
+.product {
   padding: 25px;
   box-sizing: border-box;
   width: 50%;
   height: 100%;
 }
 
-.product-details h3 {
+.product h3 {
   margin: 0px;
 
   font-family: "Montserrat", sans-serif;
@@ -57,14 +57,15 @@ body {
   color: var(--dark-grayish-blue);
 }
 
-.product-details h1 {
+.product-name {
   width: 70%;
   margin: 25px 0px;
+  font-size: 2rem;
   font-family: "Fraunces", serif;
   color: var(--very-dark-blue);
 }
 
-.product-details p {
+.product-details {
   width: 90%;
   margin: 0px;
 
@@ -76,16 +77,18 @@ body {
 }
 
 .product-price {
-  color: var(--dark-cyan) !important;
+  color: var(--dark-cyan);
   display: flex;
   align-items: center;
+  width: 70%;
+  font-family: "Fraunces", serif;
+  font-size: 1.5rem;
 }
 
-.product-price span {
+.product-price del {
   font-size: 1rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  text-decoration: line-through;
 
   color: var(--dark-grayish-blue);
   margin-left: 1rem;
@@ -126,7 +129,7 @@ body {
     display: block;
   }
 
-  .product-details {
+  .product {
     padding: 20px;
     width: 100%;
   }
@@ -136,12 +139,12 @@ body {
     height: 260px;
   }
 
-  .product-details h1 {
+  .product-name {
     margin: 15px 0px;
     width: 90%;
   }
 
-  .product-details p{
+  .product-details{
     width: 100%;
   }
 }
