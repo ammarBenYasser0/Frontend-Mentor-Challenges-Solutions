@@ -46,7 +46,8 @@ body {
     font-family: "Outfit", sans-serif;
 }
 
-.txt-container h2 {
+.txt-container h1 {
+    font-size: 1.5rem;
     color: var(--dark-blue);
 }
 
