@@ -1,6 +1,6 @@
 # Frontend Mentor - Product preview card component solution
 
-This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Interactive rating component coding challenge](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI) Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -23,14 +23,15 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [here](https://www.frontendmentor.io/solutions/qr-code-component-PDcuKx_n30)
--   Live Site URL: [here](https://qr-code-component-am24.netlify.app/)
+-   Solution URL: [here](https://www.frontendmentor.io/solutions/product-preview-card-component-solution-0u6_Z2GjoG)
+-   Live Site URL: [here](https://product-preview-card-am24.netlify.app)
 
 ### Built with
 
 -   Semantic HTML5 markup
 -   CSS custom properties
 -   Flexbox
+-   Javascript
 
 ### Useful resources
 

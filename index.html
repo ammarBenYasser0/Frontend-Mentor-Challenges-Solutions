@@ -9,26 +9,54 @@
             sizes="32x32"
             href="./images/favicon-32x32.png"
         />
-        <title>Frontend Mentor | QR code component</title>
-        <link rel="stylesheet" href="./style.css" />
+        <script src="index.js" defer></script>
+        <title>Frontend Mentor | Interactive rating component</title>
+        <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <main class="card">
-            <div class="img-container">
-                <img
-                    src="./images/image-qr-code.png"
-                    alt="qr code to visit frontend mentor site"
-                />
-            </div>
-            <div class="txt-container">
-                <h1>Improve your front-end skills by building projects</h1>
-                <p>
-                    Scan the QR codeto visit Frontend Mentor and take your
-                    coding skills to the next level
-                </p>
+        <main>
+            <div class="container">
+                <div id="before-feedback">
+                    <div class="icon-container">
+                        <img src="./images/icon-star.svg" alt="a rating star" />
+                    </div>
+                    <h1>How did we do?</h1>
+                    <p>
+                        Please let us know how we did with your support request.
+                        All feedback is appreciated to help us improve our
+                        offering!
+                    </p>
+                    <form class="form-container">
+                        <div class="radio-btns">
+                            <button type="button">1</button>
+                            <button type="button">2</button>
+                            <button type="button">3</button>
+                            <button type="button">4</button>
+                            <button type="button">5</button>
+                        </div>
+                        <button type="submit">SUBMIT</button>
+                    </form>
+                </div>
+                <div id="after-feedback" class="hide">
+                    <div class="img-container">
+                        <img
+                            src="./images/illustration-thank-you.svg"
+                            alt=""
+                            srcset=""
+                        />
+                    </div>
+                    <div class="output-container">
+                        You selected <span id="output">4</span> out of 5
+                    </div>
+                    <h1>Thank you!</h1>
+                    <p>
+                        We appreciate you taking the time to give a rating. If
+                        you ever need more support, don’t hesitate to get in
+                        touch!
+                    </p>
+                </div>
             </div>
         </main>
-
         <footer class="attribution">
             Challenge by
             <a
